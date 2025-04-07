@@ -1,0 +1,28 @@
+.container{
+display: flex;
+justify-content: center;
+font-family: monospace;
+flex-wrap: wrap;
+}
+
+.counter {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ padding:  24px;
+ margin: 8px;
+ border: solid 2px red;
+ width: 300px;
+ border-radius: 16px;
+ color: blue;
+}
+
+.value {
+font-size: 60px;
+
+
+}
+
+.label {
+    font-size: 30px;
+}
