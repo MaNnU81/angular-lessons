@@ -17,4 +17,12 @@ this.counterServ.addOne();
   minusClicked(){
     this.counterServ.removeOne();
   }
+
+  play(){
+this.counterServ.startInterval()
+  }
+
+  stop(){
+    this.counterServ.stopInterval()
+  }
 }
